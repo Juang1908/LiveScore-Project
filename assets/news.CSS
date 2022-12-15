@@ -1,0 +1,156 @@
+:root {
+  --dark-blue: #001328;
+  --medium-blue: #001f41;
+  --lighter-blue: #002956;
+  --lightest-blue: #003267;
+  --teal: #04d3f0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Alata", sans-serif;
+}
+html {
+  font-size: 15px;
+  font-family: "Alata", Arial, sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--medium-blue);
+}
+
+/*.navbar-nav>.active>a {
+    background-color: #C0C0C0;
+    color: green;
+}*/
+/* "Live Sports News" Title of webpage */
+.title {
+  display: flex;
+  font-size: xx-large;
+  font-style: oblique;
+  color: darkcyan;
+  text-shadow: 3px 3px 5px #001328;
+  box-sizing: border-box;
+  padding: 40px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin: 40px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  height: max-content;
+  width: max-content;
+  /*border-radius: 36px;
+    background: linear-gradient(315deg, #002146, #001c3b);
+    box-shadow:  -33px -33px 40px #001935,
+             33px 33px 40px #00254d;*/
+}
+
+.btn {
+  position: fixed;
+  top: 60px;
+  right: 200px;
+  font-size: x-large;
+  border-radius: 25px;
+  border: none;
+  margin: auto;
+  padding: 25px;
+  background-color: var(--medium-blue); 
+  color: darkcyan;
+  font-weight: bold;
+  box-shadow:  -33px -33px 40px #001935,
+  33px 33px 40px #00254d; 
+}
+.btn {
+cursor: pointer;
+}
+.btn:active {
+  transform: translateY(4px);
+}
+
+.line {
+  margin: 0 px;
+  margin-bottom: 25px;
+  height: 5px;
+}
+/* article cards */
+.card {
+  display: inline-flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 15px;
+  margin: auto;
+  margin-inline: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  height: max-content;
+  width: 25%;
+  border-radius: 25px;
+  background-color: var(--lightest-blue);
+  color: darkgray;
+  text-shadow: 3px 3px 5px #001328;
+}
+
+#link1 {
+  color: gray;
+  font-size: large;
+}
+#link2 {
+  color: gray;
+  font-size: large;
+}
+#link3 {
+  color: gray;
+  font-size: large;
+}
+#link4 {
+  color: gray;
+  font-size: large;
+}
+#link5 {
+  color: gray;
+  font-size: large;
+}
+#link6 {
+  color: gray;
+  font-size: large;
+}
+#link7 {
+  color: gray;
+  font-size: large;
+}
+#link8 {
+  color: gray;
+  font-size: large;
+}
+#link9 {
+  color: gray;
+  font-size: large;
+}
+#link10 {
+  color: gray;
+  font-size: large;
+}
+#link11 {
+  color: gray;
+  font-size: large;
+}
+#link12 {
+  color: gray;
+  font-size: large;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 var(--teal);
+}
+.container {
+  padding: 2px 16px;
+}
+
+.line2 {
+  margin: 0 px;
+  margin-top: 25px;
+  height: 5px;
+}

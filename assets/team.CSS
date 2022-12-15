@@ -1,0 +1,90 @@
+.navbar.is-primary {
+    background-color: darkblue;
+    color: teal;
+}
+
+html {
+    background-color: darkblue;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+  
+  .main-header {
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  .card1 {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #035e7c;
+    color: #fff;
+  }
+  
+  .card1 header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+
+  .card2 {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #035e7c;
+    color: #fff;
+  }
+  
+  .card2 header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+
+
+  }.card3 {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #035e7c;
+    color: #fff;
+  }
+  
+  .card3 header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  .card img {
+    width: 100%;
+    min-width: 400px;
+  }
+
+  
+  

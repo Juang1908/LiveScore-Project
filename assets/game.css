@@ -1,0 +1,16 @@
+:root{
+    /* background-image: url("./images/sports.jpg"); */
+    background-color: #001328;
+    background-color: #001F41;
+}
+
+body{
+    font-family: 'Grenze Gotisch', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Markazi Text', serif;
+
+}
+
+.notification:hover{
+    background-image: linear-gradient(rgb(20, 20, 154),grey,white);
+}
